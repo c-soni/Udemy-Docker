@@ -29,3 +29,7 @@
 - `docker build .`
 - `docker build -t csoni/redis-demo:latest .`
 - `docker commit -c 'CMD ["redis-server"]' 474ea3e6a16f`
+
+## Section 04:
+
+- `docker run -p 8080:8080 csoni/webserver`
