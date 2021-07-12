@@ -33,3 +33,13 @@
 ## Section 04:
 
 - `docker run -p 8080:8080 csoni/webserver`
+
+## Section 05:
+
+- `docker-compose`
+- `docker-compose up`
+- `docker-compose up --build`
+- `docker run -d redis`
+- `docker-compose up -d`
+- `docker-compose down`
+- `docker-compose ps`
