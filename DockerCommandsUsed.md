@@ -1,12 +1,12 @@
 # All commands used in the course:
 
-## Section 1:
+## Section 01:
 
 - `docker version`
 - `docker login`
 - `docker run hello-world`
 
-## Section 2:
+## Section 02:
 
 - `docker run busybox echo hi there`
 - `docker run busybox ls`
@@ -23,3 +23,9 @@
 - `docker exec -it 26e75434b7e1 redis-cli`
 - `docker exec -it 0a07ef24178e sh`
 - `docker run -it busybox sh`
+
+## Section 03:
+
+- `docker build .`
+- `docker build -t csoni/redis-demo:latest .`
+- `docker commit -c 'CMD ["redis-server"]' 474ea3e6a16f`
