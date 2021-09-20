@@ -43,3 +43,8 @@
 - `docker-compose up -d`
 - `docker-compose down`
 - `docker-compose ps`
+
+## Section 06:
+
+- `docker run -p 3000:3000 -v $(pwd):/app <image_id>`
+- `docker run -p 3000:3000 -v /app/node_modules -v $(pwd):/app <image_id>`
